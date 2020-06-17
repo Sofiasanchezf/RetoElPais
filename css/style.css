@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: block;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-rojo {
+    width: 55px;
+    height: 55px;
+}
+
+
+.display{
+    display: inline;
+}
+
+@media (max-width: 798px) { 
+    .display {
+        display: none;
+    }
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.cabecera-row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 1px solid gray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.cabecera-row2 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecera-row3 {
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.cabecera-row3 a {
+    color: gray;
+}
+@media (max-width: 945px){
+    .cabecera-row3 {
+        display: none;
+    }
+}
+
+.cabecera-row3 a {
+    padding-left: 0.5em;
+    font-size: 0.9rem;
+}
+
+.contendor-groups{
+    padding-top: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.covid {
+    padding-bottom: 0.2em;
+    border-bottom: 5px solid red;
+    width: 100%;
+}
+.group1{
+    width: 100%;
+}
+
+
+.group1-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.4em;
+    padding-top: 0.5em;
+    border-top: 1px solid black;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+.group2{
+    margin-top: 2em;
+}
+.group2-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.g2-col1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.g2-col2{
+    width: 50%;
+    text-align: right;
+}
+
+.img-rojo {
+    width: 55px;
+    height: 55px;
+}
+
+.g1 {
+    margin:0;
+    display: flex;
+}
+
+
+
+.img-elpais {
+    width: 300px;
+    height: 100px;
+}
+.g1 a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+@media (max-width:582px){
+    .g1{
+        display: block;
+    }
+
+    .g1 a{
+        padding: 0;
+    }
+}
+.img2{
+    width: 100%;
+    height: auto;
+    
+}
+
+.button-sus {
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+@media (max-width: 1016px) { 
+    .button-sus {
+        display: none;
+    }
+}
+
+.button-ini {
+    padding: 0.5em;
+    background-color: #fcbf00;
+    border: 1px solid black;
+}
+
+@media (max-width: 694px) { 
+    .button-ini {
+        display: none;
+    }
+}
+
+.c-row1-g2{
+    display: flex;
+}
+
+@media (max-width: 572px) { 
+    .c-row1-g2{
+        display: none;
+    }
+}
+
+.global-c {
+    display: block;
+}
+
+/* html {
+    font-size: calc(5px + 1vw);
+} */
+
+.covid {
+    font-weight: 800;
+}
+
+
+.title {
+    font-size: 3em;
+}
